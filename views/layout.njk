@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+  <head>
+    {% block head %}
+    <title>Portifolio - Gabriel Cursi</title>
+    {% endblock %}
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="links">
+        <a href="/">Sobre</a>
+        <a href="/portifolio">Aulas</a>
+      </div>
+    </header>
+    <main>
+      
+      {% block content %}
+
+      {% endblock %}
+
+    </main>
+  </body>
+</html>
